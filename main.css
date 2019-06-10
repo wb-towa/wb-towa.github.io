@@ -39,21 +39,27 @@ html, body {
 
 .red {
     background: #ff0000;
+    border: 1px solid #ff0000;
 }
 .orange {
     background: #ff8300;
+    border: 1px solid #ff8300;
 }
 .yellow {
     background: #fff600;
+    border: 1px solid #fff600;
 }
 .green {
     background: #00af1a;
+    border: 1px solid #00af1a;
 }
 .blue {
     background: #0d05ff;
+    border: 1px solid #0d05ff;
 }
 .purple {
     background: #6801ad;
+    border: 1px solid #6801ad;
 }
 
 #footer {
