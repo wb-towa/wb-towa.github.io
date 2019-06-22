@@ -17,6 +17,19 @@ h1 {
 h2 {
     line-height: 2.0rem;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    clear both;
+}
+
+blockquote {
+    color: #666;
+    border-left: 2pt solid #dc4623;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 20px;
+}
+
 #header {
     color: #fff9ed;
     margin: 1em 1em 0.5em 1em;
