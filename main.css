@@ -1,7 +1,7 @@
 html, body {
     font-family: -apple-system, BlinkMacSystemFont,
-    “Segoe UI”, “Roboto”, “Oxygen”, “Ubuntu”, “Cantarell”,
-    “Fira Sans”, “Droid Sans”, “Helvetica Neue”,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
     font-size: 17px;
     background: #fffcf7;
@@ -28,13 +28,15 @@ blockquote {
     margin-left: 20px;
 }
 
+/*
+lazy hack, apply to header, main, & footer
+*/
 .width {
     min-width: 300px;
     max-width: 1024px;
 }
 #header {
     color: #fff9ed;
-    /*width:100%;*/
     margin: 1em auto;
     color: #232322;
 }
@@ -86,7 +88,6 @@ blockquote {
 
 #footer {
     clear: both;
-    /*width:100%;*/
     margin: 0 auto;
     padding: 1em 0 2em 0;
     border-top: 1px solid #6801ad;
@@ -123,7 +124,6 @@ blockquote {
 }
 
 #main {
-    /*width: 100%;*/
     margin: 0 auto;
     padding: 0.5rem 0;
     line-height: 1.5rem;
@@ -149,3 +149,4 @@ blockquote {
     margin: 1.0em 0 1.0em 1.5em;
     max-width: 55%;
 }
+
