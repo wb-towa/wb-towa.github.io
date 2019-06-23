@@ -4,11 +4,9 @@ html, body {
     “Fira Sans”, “Droid Sans”, “Helvetica Neue”,
     sans-serif;
     font-size: 17px;
-    min-width: 300px;
-    max-width: 1024px;
     background: #fffcf7;
     color: #232322;
-    padding: 0 2em;
+    padding: 0 1.2rem;
 }
 
 h1 {
@@ -30,9 +28,14 @@ blockquote {
     margin-left: 20px;
 }
 
+.width {
+    min-width: 300px;
+    max-width: 1024px;
+}
 #header {
     color: #fff9ed;
-    margin: 1em 1em 0.5em 1em;
+    /*width:100%;*/
+    margin: 1em auto;
     color: #232322;
 }
 #header a {
@@ -83,7 +86,8 @@ blockquote {
 
 #footer {
     clear: both;
-    margin: 0 1em 0 1em;
+    /*width:100%;*/
+    margin: 0 auto;
     padding: 1em 0 2em 0;
     border-top: 1px solid #6801ad;
 }
@@ -100,7 +104,7 @@ blockquote {
 
 #menu {
     width: 100%;
-    margin: 0.5em 0;
+    margin: 0.5em auto;
 }
 #menu a {
     text-decoration: none;
@@ -119,6 +123,8 @@ blockquote {
 }
 
 #main {
+    /*width: 100%;*/
+    margin: 0 auto;
     padding: 0.5em 1em;
     line-height: 1.5rem;
 }
@@ -143,4 +149,3 @@ blockquote {
     margin: 1.0em 0 1.0em 1.5em;
     max-width: 55%;
 }
-
