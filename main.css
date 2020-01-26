@@ -150,3 +150,13 @@ lazy hack, apply to header, main, & footer
     max-width: 55%;
 }
 
+#main ul.index{
+    display: block;
+    list-style: none;
+    margin: 0 0 2rem 0;
+    padding: 0;
+}
+
+#main ul.index li {
+    padding: 0.25rem 0;
+}
